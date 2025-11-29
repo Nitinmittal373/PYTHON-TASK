@@ -15,4 +15,13 @@ class ExpenseManager:
         self.people={}
         self.expenses=[]
         
-           
+        
+    def add_person(self,name):
+
+        if name in self.people:
+            print("Person exits")
+            return
+        
+        self.people[name]=Person(name)
+
+    def add_expense(self,paid_by,amount,description,participants):
