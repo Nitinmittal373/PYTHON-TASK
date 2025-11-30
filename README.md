@@ -20,21 +20,37 @@ The ExpenseManager class is the main class which contains a dictionary for stori
 Sample input and output:
 
 Input:
+
 1
+
 Enter person name: Nitin
+
 1
+
 Enter person name: Aman
+
 1
+
 Enter person name: Rohit
+
 2
+
 Who paid the bill? Nitin
+
 Enter the amount: 900
+
 What is the purpose? Dinner
+
 How many participants? 3
+
 Enter the name: Nitin
+
 Enter the name: Aman
+
 Enter the name: Rohit
+
 3
+
 4
 
 Output:
