@@ -25,8 +25,9 @@ class ExpenseManager:
         self.people[name]=Person(name)
         print(f"{name} added")
 
-        with open("expenses.txt", "a") as f:
-            f.write(f"Person Added: {name}\n")
+        f=open("expenses.txt", "a") 
+        f.write(f"Person Added: {name}\n")
+        f.close()
 
     def add_expense(self,paid_by,amount,description,participants):
         if paid_by not in self.people:
@@ -47,28 +48,33 @@ class ExpenseManager:
 
         print("Expense added sucessfully")        
 
-        with open("expenses.txt", "a") as f:
-            f.write(f"Expense: {paid_by} paid {amount} for '{description}' split among {participants}\n")
+        f=open("expenses.txt", "a") 
+        f.write(f"Expense: {paid_by} paid {amount} for '{description}' split among {participants}\n")
+        f.close()
 
     def Show_expense(self):
-        print("\n Balances ")
-        with open("expenses.txt", "a") as f:
-            f.write("\nBalance:\n")
+        print("\nBalances: ")
+        f=open("expenses.txt", "a")
+        f.write("\nBalance:\n")
+        f.close()
 
         for name,person in self.people.items():
             if person.balance>0:
                 print(f"{name} will receive {person.balance:.2f}\n")
-                with open("expenses.txt", "a") as f:
-                    f.write(f"{name} will receive {person.balance:.2f}\n")
+                f=open("expenses.txt", "a") 
+                f.write(f"{name} will receive {person.balance:.2f}\n")
+                f.close()
             elif person.balance<0:
                 print(f"{name} owes {-person.balance:.2f}\n")
-                with open("expenses.txt", "a") as f:
-                    f.write(f"{name} owes {-person.balance:.2f}\n")
-                    
+                f=open("expenses.txt", "a") 
+                f.write(f"{name} owes {-person.balance:.2f}\n")
+                f.close()
+
             else:
                 print(f"{name} is settled")
-                with open("expenses.txt", "a") as f:
-                    f.write(f"{name} is settled.\n")
+                f=open("expenses.txt", "a")
+                f.write(f"{name} is settled.\n")
+                f.close()
 
 
 
