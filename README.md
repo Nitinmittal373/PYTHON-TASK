@@ -4,7 +4,7 @@ The project is based on Object-Oriented Programming(OOPs) in Python,using classe
 This project firstly add the person name one by one.And then user have to type in the details of who paid the bill, what is the total amount, description and people involved in the split. After giving all this information system calculates how much money each person owe to whom and exact settlement amounts.And finally shows all the expenses.
 
 
-**Classes used**
+**##Classes used**
 
 
 Explanation of the classes used in my project:
@@ -14,7 +14,7 @@ The Expense class stores details of each expense such as who paid, the amount, d
 The ExpenseManager class is the main class which contains a dictionary for storing Person objects and a list for storing Expense objects. It also includes methods like add_person, add_expense, view_expenses, and show_balances, which manage all the operations of the project.
 
 
-**Sample Input & Output**
+**##Sample Input & Output**
 
 
 Sample input and output:
