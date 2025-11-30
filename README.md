@@ -8,6 +8,7 @@ This project firstly add the person name one by one.And then user have to type i
 
 
 Explanation of the classes used in my project:
+
 In this project, I have used three classes: Person, Expense, and ExpenseManager.
 The Person class stores the name of each participant and their balance (initially 0).
 The Expense class stores details of each expense such as who paid, the amount, description, and the participants involved.
@@ -54,12 +55,15 @@ Enter the name: Rohit
 4
 
 Output:
+
 1. Add person
 2. Add Expense
 3. Show Expense
 4. Exit
 Enter option: 1
+
 Enter person name: Nitin
+
 Nitin added
 
 1. Add person
@@ -67,7 +71,9 @@ Nitin added
 3. Show Expense
 4. Exit
 Enter option: 1
+
 Enter person name: Aman
+
 Aman added
 
 1. Add person
@@ -75,7 +81,9 @@ Aman added
 3. Show Expense
 4. Exit
 Enter option: 1
+
 Enter person name: Rohit
+
 Rohit added
 
 1. Add person
@@ -83,13 +91,17 @@ Rohit added
 3. Show Expense
 4. Exit
 Enter option: 2
+
 Who paid the bill? Nitin
+
 Enter the amount: 900
+
 What is the purpose? Dinner
 How many participants? 3
 Enter the name: Nitin
 Enter the name: Aman
 Enter the name: Rohit
+
 Expense added successfully
 
 1. Add person
@@ -97,6 +109,7 @@ Expense added successfully
 3. Show Expense
 4. Exit
 Enter option: 3
+
 Nitin will receive 600.00
 
 Aman owes 300.00
@@ -108,6 +121,7 @@ Rohit owes 300.00
 3. Show Expense
 4. Exit
 Enter option: 4
+
 Exiting
 
 This is how my project runs.
