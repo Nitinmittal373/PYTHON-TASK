@@ -53,7 +53,7 @@ class ExpenseManager:
         f.close()
 
     def Show_expense(self):
-        print("\nBalances: ")
+        print("\nBalance:\n")
         f=open("expenses.txt", "a")
         f.write("\nBalance:\n")
         f.close()
@@ -83,7 +83,7 @@ manager=ExpenseManager()
 while True:
     print("1. Add person")
     print("2. Add Expense")
-    print("3. Show Expense")
+    print("3. Show Balance")
     print("4. Exit")
     
     option = int(input("Enter option: "))
