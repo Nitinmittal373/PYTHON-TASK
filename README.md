@@ -125,5 +125,6 @@ Enter option: 4
 Exiting
 
 This is how my project runs.
+![WhatsApp Image 2025-12-07 at 6 41 24 PM](https://github.com/user-attachments/assets/57334b47-3225-4135-a3ff-2cd282fb73c0)
 
 
